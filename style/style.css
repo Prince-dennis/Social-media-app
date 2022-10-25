@@ -1,0 +1,58 @@
+*{
+    font-family: "Montserrat";
+}
+.container{
+    display: flex;
+    padding: 100px;
+}
+.right{
+    margin-left: 100px;
+}
+textarea{
+    width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+label{
+    padding-left: 30px;
+}
+.options{
+    color: #4267B2;
+}
+.options i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+#posts{
+    width: 400px;
+}
+#posts div {
+    align-items: center;
+    justify-content: space-between;
+  }
+label{
+    font-weight: 800;
+    font-size: larger;
+
+}
+.btns{
+    display: flex;
+    margin-top: 10px;
+}
+button{
+    background-color: #4267B2;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+.pst{
+    margin-left: 10px;
+}
+textarea::placeholder{
+    padding: 10px;
+}
